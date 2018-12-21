@@ -35,7 +35,7 @@ export const createAccount = credentials => dispatch => {
                 credentials: res.data
             }
         })
-        history.push('/')
+        history.push('/ExerciseTracker')
 
     }).catch((e) => {
         console.log((e.response.data))
@@ -50,7 +50,7 @@ export const createAccount = credentials => dispatch => {
 }
 export const login = credentials => (dispatch, getState) => {
     if (getState().auth.signedIn) {
-        return history.push('/')
+        return history.push('/ExerciseTracker')
     }
 
     return requestServer.post('/users/login', {
@@ -66,7 +66,7 @@ export const login = credentials => (dispatch, getState) => {
                 credentials: res.data
             }
         })
-        history.push('/')
+        history.push('/ExerciseTracker')
     }).catch((e) => {
         dispatch({
             type: ERROR,
@@ -91,7 +91,7 @@ export const logout = () => (dispatch, getState) => {
                     }
                 }
             })
-            history.push('/')
+            history.push('/ExerciseTracker')
         }).catch((e) => {
             dispatch({
                 type: ERROR,
