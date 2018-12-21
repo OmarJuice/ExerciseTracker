@@ -1,5 +1,6 @@
-# Exercise Tracker (client)
+# Exercise Tracker
 
-Client side of my Exercise Tracker CRUD app.
+Exercise Tracker CRUD app.
 
-React, Redux, Bulma.
+Client: React, Redux, Bulma.
+Server: Node, Express, MongoDB
