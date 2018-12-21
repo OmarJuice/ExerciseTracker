@@ -16,6 +16,7 @@ class App extends Component {
                     <div>
                         <Header />
                         <Route path="/ExerciseTracker" exact component={this.props.isSignedIn ? Dashboard : Landing} />
+                        <Route path="/" exact component={this.props.isSignedIn ? Dashboard : Landing} />
                         <Route path="/ExerciseTracker/login" exact component={Login} />
                         <Route path="/ExerciseTracker/signup" exact component={CreateAccount} />
 
