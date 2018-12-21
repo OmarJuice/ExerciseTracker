@@ -2,8 +2,12 @@ import React, { Component } from 'react';
 
 class Landing extends Component {
     state = {
-        icon: "fas fa-bicycle fa-5x",
-        icons: ["fas fa-dumbbell fa-5x", "fas fa-swimmer fa-5x", "fas fa-running fa-5x", "fas fa-bicycle fa-5x"]
+        icon: <span className="icon hero-icon"><i className="fas fa-dumbbell fa-5x"></i></span>,
+        icons: [<span className="icon hero-icon"><i className="fas fa-running fa-5x"></i></span>,
+        <span className="icon hero-icon"><i className="fas fa-bicycle fa-5x"></i></span>,
+        <span className="icon hero-icon"><i className="fas fa-swimmer fa-5x"></i></span>,
+        <span className="icon hero-icon"><i className="fas fa-dumbbell fa-5x"></i></span>,
+        ]
     }
     componentDidMount() {
         console.log('rend3r');
@@ -35,8 +39,8 @@ class Landing extends Component {
                             Track Your Workouts
 
                         </div>
-                        <div id="icon1" className="title is-1 hero-icon">
-                            <span className="icon"><i className={this.state.icon}></i></span>
+                        <div id="icon1" className="title is-1 icon-container">
+                            {this.state.icon}
                         </div>
 
 
