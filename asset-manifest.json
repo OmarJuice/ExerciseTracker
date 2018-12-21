@@ -1,11 +1,11 @@
 {
-  "main.js": "/ExerciseTracker/static/js/main.6b7f5148.chunk.js",
-  "main.js.map": "/ExerciseTracker/static/js/main.6b7f5148.chunk.js.map",
+  "main.js": "/ExerciseTracker/static/js/main.3360fcc5.chunk.js",
+  "main.js.map": "/ExerciseTracker/static/js/main.3360fcc5.chunk.js.map",
   "static/js/1.5a1bd0d0.chunk.js": "/ExerciseTracker/static/js/1.5a1bd0d0.chunk.js",
   "static/js/1.5a1bd0d0.chunk.js.map": "/ExerciseTracker/static/js/1.5a1bd0d0.chunk.js.map",
   "runtime~main.js": "/ExerciseTracker/static/js/runtime~main.03214316.js",
   "runtime~main.js.map": "/ExerciseTracker/static/js/runtime~main.03214316.js.map",
   "index.html": "/ExerciseTracker/index.html",
-  "precache-manifest.475e927d5849a31d8fb869961fad1208.js": "/ExerciseTracker/precache-manifest.475e927d5849a31d8fb869961fad1208.js",
+  "precache-manifest.b11db7df502a005db4adb0c024519abf.js": "/ExerciseTracker/precache-manifest.b11db7df502a005db4adb0c024519abf.js",
   "service-worker.js": "/ExerciseTracker/service-worker.js"
 }
