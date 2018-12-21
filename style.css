@@ -39,8 +39,11 @@ body, html, #root, #container, .container{
     align-items: center;
     
 }
-.hero-icon{
+.icon-container{
     margin-top: 10%;
+
+}
+.hero-icon{
     animation: fade 1.5s linear infinite
 
 }
@@ -70,7 +73,7 @@ body, html, #root, #container, .container{
     font-size: 4.5rem
 }
 @media only screen and (max-width: 1024px){
-    .hero-icon{
+    .icon-container{
         margin-top: 20%
     }
 }
