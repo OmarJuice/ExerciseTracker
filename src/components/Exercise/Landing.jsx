@@ -22,7 +22,7 @@ class Landing extends Component {
                     i = 0
                 }
             })
-        }, 1000)
+        }, 1500)
     }
 
     render() {
