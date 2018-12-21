@@ -44,7 +44,7 @@ class Header extends Component {
                     <div className="navbar-brand">
                         <a className="navbar-item" rel="noopener noreferrer" target="_blank" href="https://omarjuice.github.io/"><img src="./OJICONtrue.png" alt="icon" /></a>
 
-                        <Link className="navbar-item staat is-size-4" to="/">
+                        <Link className="navbar-item staat is-size-4" to="/ExerciseTracker">
                             Exercise Tracker
                     </Link>
                         <button className={this.state.menu ? "navbar-burger burger is-active" : "navbar-burger burger"} onClick={this.handleClick} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">

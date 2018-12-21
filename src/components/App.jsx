@@ -15,9 +15,9 @@ class App extends Component {
                 <Router history={history}>
                     <div>
                         <Header />
-                        <Route path="/" exact component={this.props.isSignedIn ? Dashboard : Landing} />
-                        <Route path="/login" exact component={Login} />
-                        <Route path="/signup" exact component={CreateAccount} />
+                        <Route path="/ExerciseTracker" exact component={this.props.isSignedIn ? Dashboard : Landing} />
+                        <Route path="/ExerciseTracker/login" exact component={Login} />
+                        <Route path="/ExerciseTracker/signup" exact component={CreateAccount} />
 
                     </div>
 

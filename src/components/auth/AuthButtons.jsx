@@ -13,8 +13,8 @@ class AuthButtons extends Component {
         if (!this.props.isSignedIn) {
             return (
                 <>
-                    <Link className="button is-primary" to="/signup">Sign Up</Link>
-                    <Link className="button" to="/login">Login</Link>
+                    <Link className="button is-primary" to="ExerciseTracker/signup">Sign Up</Link>
+                    <Link className="button" to="ExerciseTracker/login">Login</Link>
                 </>
             )
         } else if (this.props.isSignedIn) {
