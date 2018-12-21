@@ -8,7 +8,7 @@ export const superSort = (options) => {
         }
 
         if (!options[0].by) {
-            throw new Error('Parameter "by" of the method object is required')
+            throw new Error('Parameter "by" of the options object is required')
         }
         let by = options[0].by;
         if (!a[by] || !b[by]) {
